@@ -1,13 +1,13 @@
 :root {
-  --background-body: #fff;
-  --background: #efefef;
+  --background-body: rgb(235, 229, 199);
+  --background: #dbdbdb;
   --background-alt: #f7f7f7;
   --selection: #9e9e9e;
   --text-main: #363636;
   --text-bright: #000;
   --text-muted: #70777f;
-  --links: #0076d1;
-  --focus: #0096bfab;
+  --links: #000c7a;
+  --focus: #cfc69391;
   --border: #dbdbdb;
   --code: #000;
   --animation-duration: 0.1s;
@@ -18,6 +18,6 @@
   --form-placeholder: #949494;
   --form-text: #1d1d1d;
   --variable: #39a33c;
-  --highlight: #ff0;
+  --highlight: rgb(182, 182, 0);
   --select-arrow: svg-load('./assets/select-arrow.svg', fill: #161f27);
 }

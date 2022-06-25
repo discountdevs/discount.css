@@ -1,23 +1,23 @@
 :root {
-  --background-body: #202b38;
-  --background: #161f27;
-  --background-alt: #1a242f;
-  --selection: #1c76c5;
-  --text-main: #dbdbdb;
-  --text-bright: #fff;
-  --text-muted: #a9b1ba;
-  --links: #41adff;
-  --focus: #0096bfab;
-  --border: #526980;
+  --background-body: #2c2e43;
+  --background: #2c2e43;
+  --background-alt: #2c2e43;
+  --selection: #c5b41c;
+  --text-main: rgb(216, 216, 216);
+  --text-bright: rgb(241, 241, 241);
+  --text-muted: #b7baa9;
+  --links: #cfc693;
+  --focus: #cfc69391;
+  --border: #cfc693;
   --code: #ffbe85;
   --animation-duration: 0.1s;
-  --button-base: #0c151c;
-  --button-hover: #040a0f;
+  --button-base: rgba(71, 71, 71, 0.5);
+  --button-hover: #8b8668;
   --scrollbar-thumb: var(--button-hover);
   --scrollbar-thumb-hover: color-mod(var(--scrollbar-thumb) lightness(-30%));
   --form-placeholder: #a9a9a9;
   --form-text: #fff;
-  --variable: #d941e2;
+  --variable: #e27441;
   --highlight: #efdb43;
   --select-arrow: svg-load('./assets/select-arrow.svg', fill: #efefef);
 }
