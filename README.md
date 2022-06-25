@@ -1,6 +1,6 @@
 
 <h1 align="center">Discount.css</h1>
-<p align="center">🌊 A drop-in collection of CSS styles to make simple websites just a little nicer</p>
+<p align="center">A drop-in collection of CSS styles to make simple websites just a little nicer</p>
 
 
 <br>
