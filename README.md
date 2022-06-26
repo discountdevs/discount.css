@@ -42,7 +42,7 @@ Just stick this in your `<head>`:
 
 <br>
 
-A **preview** of the different themes is available [on the **demo page**](https://watercss.kognise.dev/#installation)! ⚡
+A **preview** of the different themes is available [on the **demo page**]([https://watercss.kognise.dev/#installation](https://discountdevs.github.io/discount.css/out/docs/#installation))! ⚡
 
 #### How the "Automatic Theme" works
 
@@ -85,57 +85,3 @@ Do you want to make some adjustments or build your own theme completely differen
 - `--variable`
 - `--highlight`
 - `--select-arrow`
-
-### Runtime theming
-
-> ⚠ If you use a version with support for legacy browsers like Internet Explorer, skip to [Compiling your own theme](#compiling-your-own-theme)!
-
-Discount.css uses Custom Properties (_"CSS variables"_) to define its base styles such as colors. These can be changed and overwritten right in the browser.
-
-Because of this, you can simply add your own stylesheet to the page and set your own CSS variables there. As long as your stylesheet comes after Discount.css in the HTML, your values will override the default ones and your theme is applied!
-
-This short example will use Discount.css, but color all links red:
-
-```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/water.css@2/out/water.min.css" />
-<style>
-  :root {
-    --links: red;
-  }
-</style>
-```
-
-If you want to change a value for dark or light mode only, use a media query like this:
-
-```html
-<style>
-  :root {
-    --links: blue; /* Always applied */
-  }
-
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --links: yellow; /* Only applied in dark mode (overrides blue) */
-    }
-  }
-</style>
-```
-
-### Compiling your own theme
-
-If you are targeting browsers without support for CSS Custom Properties such as Internet Explorer, runtime theming is not an option. To apply your own theming, you'll need to make your changes in the source files themselves, then re-compile the CSS files. This works like the following:
-
-- Clone the repository to your machine
-- Run `yarn` to install dependencies
-- Make the theming changes you want in `src/variables-*.css`
-- Run `yarn build` to compile the CSS files
-- Use the compiled files in the `out/` directory on your site
-
-You also might want to check out the [Contributing Guide](https://github.com/kognise/water.css/tree/master/.github/CONTRIBUTING.md) as it contains further information about the build setup.
-
-## Contributing
-
-Discount.css becomes better for everyone when people like you help make it better!
-
-Check out our [Contributing Guide](.github/CONTRIBUTING.md) to learn how to get started.  
-And thanks for taking the time to contribute! :)
