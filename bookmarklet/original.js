@@ -12,7 +12,7 @@ $$('*').forEach((el) => (el.style = ''))
 
 const linkElm = createElement('link', {
   rel: 'stylesheet',
-  href: 'https://cdn.jsdelivr.net/npm/water.css@2/out/light.css'
+  href: 'https://cdn.jsdelivr.net/gh/discountdevs/discount.css@master/out/light.min.css'
 })
 
 // Add water.css and responsive viewport (if necessary)
@@ -47,10 +47,10 @@ const toggleTheme = () => {
   if (theme === 'light') {
     theme = 'dark'
     toggleBtn.innerHTML = moonSVG
-    linkElm.href = 'https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css'
+    linkElm.href = 'https://cdn.jsdelivr.net/gh/discountdevs/discount.css@master/out/dark.min.css'
   } else {
     theme = 'light'
-    linkElm.href = 'https://cdn.jsdelivr.net/npm/water.css@2/out/light.css'
+    linkElm.href = 'https://cdn.jsdelivr.net/gh/discountdevs/discount.css@master/out/light.min.css'
     toggleBtn.innerHTML = sunSVG
   }
 }
