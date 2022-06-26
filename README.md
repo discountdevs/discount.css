@@ -16,15 +16,13 @@
 
 ## Why?
 
-I commonly make quick demo pages or websites with simple content. For these, I don't want to spend time styling them but don't like the ugliness of the default styles.
-
-Water.css is a CSS framework that doesn't require any classes. You just include it in your `<head>` and forget about it, while it silently makes everything nicer.
+Discount.css is a CSS framework that doesn't require any classes. You just include it in your `<head>` and forget about it, while it silently makes everything nicer.
 
 ## Who?
 
-You might want to use Water.css if you're making a simple static page or demo website that you don't want to spend time styling.
+You might want to use Discount.css if you're making a simple static page or demo website that you don't want to spend time styling.
 
-Although it originally wasn't built for more complex websites, many developers have used Water.css as a base stylesheet and creatively applied custom styles to build out an entire app. Nothing is stopping you from doing the same!
+Although it originally wasn't built for more complex websites, many developers have used Discount.css as a base stylesheet and creatively applied custom styles to build out an entire app. Nothing is stopping you from doing the same!
 
 ## How?
 
@@ -32,15 +30,15 @@ Just stick this in your `<head>`:
 
 ### 🌙/☀ Automatic Theme:
 
-`<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.min.css">`
+`<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/discountdevs/discount.css@master/out/discount.min.css">`
 
 ### 🌙 Dark Theme:
 
-`<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.min.css">`
+`<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/discountdevs/discount.css@master/out/dark.min.css">`
 
 ### ☀ Light Theme:
 
-`<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.min.css">`
+`<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/discountdevs/discount.css@master/out/light.min.css">`
 
 <br>
 
@@ -54,9 +52,9 @@ If you want to avoid this behavior, use either `dark.css` or `light.css`.
 
 #### Supporting Internet Explorer
 
-All three distributions of Water.css support Internet Explorer 11, but the main `water.css` file **doesn't respect the user's color scheme** and will be locked to light mode due to lack of `prefers-color-scheme` support.
+All three distributions of Discount.css support Internet Explorer 11, but the main `water.css` file **doesn't respect the user's color scheme** and will be locked to light mode due to lack of `prefers-color-scheme` support.
 
-Be aware that IE also doesn't support [runtime theming](#theming), and fixed fallback values will be used. If you want to override the Water.css theme in a way that's compatible with IE, we recommend that you [compile your own theme](#compiling-your-own-theme).
+Be aware that IE also doesn't support [runtime theming](#theming), and fixed fallback values will be used. If you want to override the Discount.css theme in a way that's compatible with IE, we recommend that you [compile your own theme](#compiling-your-own-theme).
 
 #### Unminified builds
 
@@ -65,7 +63,7 @@ Simply remove the `.min` from the file name.
 
 ## Theming
 
-Do you want to make some adjustments or build your own theme completely different from the official dark or light themes? Since Water.css is built with CSS variables this is super easy to do! Here's a list list of all the variables you can change to your liking:
+Do you want to make some adjustments or build your own theme completely different from the official dark or light themes? Since Discount.css is built with CSS variables this is super easy to do! Here's a list list of all the variables you can change to your liking:
 
 - `--background-body`
 - `--background`
@@ -92,11 +90,11 @@ Do you want to make some adjustments or build your own theme completely differen
 
 > ⚠ If you use a version with support for legacy browsers like Internet Explorer, skip to [Compiling your own theme](#compiling-your-own-theme)!
 
-Water.css uses Custom Properties (_"CSS variables"_) to define its base styles such as colors. These can be changed and overwritten right in the browser.
+Discount.css uses Custom Properties (_"CSS variables"_) to define its base styles such as colors. These can be changed and overwritten right in the browser.
 
-Because of this, you can simply add your own stylesheet to the page and set your own CSS variables there. As long as your stylesheet comes after Water.css in the HTML, your values will override the default ones and your theme is applied!
+Because of this, you can simply add your own stylesheet to the page and set your own CSS variables there. As long as your stylesheet comes after Discount.css in the HTML, your values will override the default ones and your theme is applied!
 
-This short example will use Water.css, but color all links red:
+This short example will use Discount.css, but color all links red:
 
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/water.css@2/out/water.min.css" />
@@ -137,7 +135,7 @@ You also might want to check out the [Contributing Guide](https://github.com/kog
 
 ## Contributing
 
-Water.css becomes better for everyone when people like you help make it better!
+Discount.css becomes better for everyone when people like you help make it better!
 
 Check out our [Contributing Guide](.github/CONTRIBUTING.md) to learn how to get started.  
 And thanks for taking the time to contribute! :)
